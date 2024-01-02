@@ -17,7 +17,8 @@ function orderCake(){
 // of the application.
 // (previousState,action) => newState
 const initialState = {
-    numOfCakes :10
+    numOfCakes :10,
+    anotherProperty:0
 }
 const reducer =(state=initialState,action)=>{
     switch (action.type) {
