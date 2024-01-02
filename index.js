@@ -11,3 +11,5 @@ function orderCake(){
         type:CAKE_ORDERED,
         quantity: 1,
     } 
+}
+// Reducers : It specify how apps state changes in response to actions sent to the store.
