@@ -11,4 +11,3 @@ function orderCake(){
         type:CAKE_ORDERED,
         quantity: 1,
     } 
-}
